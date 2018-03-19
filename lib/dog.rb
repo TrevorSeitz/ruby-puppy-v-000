@@ -11,5 +11,10 @@ class Dog
     @@all = []
   end
 
+  def all
+    @@all.each do |dog|
+      puts dog
+    end
+  end
 
 end
